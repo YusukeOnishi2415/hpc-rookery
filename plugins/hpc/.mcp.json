@@ -7,7 +7,7 @@
         "run",
         "--quiet",
         "--from",
-        "git+https://github.com/william-dawson/hpc-rookery.git@main",
+        "git+https://github.com/YusukeOnishi2415/hpc-rookery.git@main",
         "hpc-mcp"
       ],
       "env": {}
@@ -19,7 +19,7 @@
         "run",
         "--quiet",
         "--from",
-        "git+https://github.com/william-dawson/hpc-rookery.git@main",
+        "git+https://github.com/YusukeOnishi2415/hpc-rookery.git@main",
         "hpc-docs-mcp"
       ],
       "env": {}

@@ -82,14 +82,14 @@ use it as a connectivity check.
    key. Never commit it or echo the key back in conversation.
 4. **Validate**:
    ```bash
-   uv tool run --quiet --from git+https://github.com/william-dawson/hpc-rookery.git@main hpc-doctor ai-hpz
+   uv tool run --quiet --from git+https://github.com/YusukeOnishi2415/hpc-rookery.git@main hpc-doctor ai-hpz
    ```
    (From a checkout of this repo: `.venv/bin/python -m hpc_mcp.doctor
    ai-hpz` also works.)
 5. **If the embedding endpoint was added or changed**, rebuild this
    facility's docs index:
    ```bash
-   uv tool run --quiet --from git+https://github.com/william-dawson/hpc-rookery.git@main python -m hpc_mcp.ingest ai-hpz
+   uv tool run --quiet --from git+https://github.com/YusukeOnishi2415/hpc-rookery.git@main python -m hpc_mcp.ingest ai-hpz
    ```
    Then run the doctor again — it should report "chunks with embeddings".
 

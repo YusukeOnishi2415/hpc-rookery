@@ -165,7 +165,7 @@ def claude_marketplace(manifests: list[dict]) -> dict:
 def portable_mcp() -> dict:
     args_prefix = [
         "tool", "run", "--quiet", "--from",
-        "git+https://github.com/william-dawson/hpc-rookery.git@main",
+        "git+https://github.com/YusukeOnishi2415/hpc-rookery.git@main",
     ]
     return {
         "$schema": OPEN_PLUGIN_MCP_SCHEMA,
